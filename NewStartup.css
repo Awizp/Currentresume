@@ -1,0 +1,36 @@
+a:link{
+  text-decoration: none;
+  color: red;
+}
+a:visited{
+  color: green;
+}
+a:hover{
+  color: orange;
+}
+a:active{
+  color: blue;
+}
+.form1{
+  margin: 20px 500px;
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+.color{
+  color: #99004d;
+}
+body{
+  background-color: #D5EEBB
+}
+hr{
+  width: 3%;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #5F7A61;
+  border-width: 5px;
+  background-color: #D5EEBB;
+}
+h1,h3{
+  color: #444941;
+}

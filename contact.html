@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="NewStartup.css" />
+    <title></title>
+  </head>
+  <body>
+    <!--Create Contact details-->
+    <h3>My Contact details</h3>
+    <ul>
+      <li><em><strong>LinkedIN</strong>: <a href="https://www.linkedin.com/in/awizp/" target="_blank">https://www.linkedin.com/in/awizp/</a></em></li>
+    </ul>
+    <hr />
+    <h3 align="center", class="color">
+      <em>Feel free to contact me if you wish send me your deatils, i'll check it out!</em>
+    </h3>
+    <!--Craete form-->
+    <div class="form1">
+      <form action="mailto:prvishnuunicorn@gmail.com" method="post" id="form1" enctype="text/plain">
+      <!--create name-->
+      <label><b><em>Your Name:</em></b></label>
+      <input type="text" name="Name" placeholder="name" autofocus/>
+      <!--create gender using radio-->
+      <p><b><em>Your Gender:</em></b></p>
+      <input  id="Male" type="radio" name="Gender" value="Male"/>
+      <label for="Male">Male</label><br />
+      <input id="Female" type="radio" name="Gender" value="Female"/>
+      <label for="Female">Female</label><br/><br/>
+      <!--create DOB using date-->
+      <label><b><em>Your Date of Birth:</em></b></label><br/>
+      <input type="date" name="dob"/>
+      <br />
+      <br />
+      <!-- create email -->
+      <label><b><em>Your Email:</em></b></label>
+      <input type="email" name="Mail" placeholder="example@gmail.com"/>
+      <!--create skills using checkbox-->
+      <p><b><em>Your Skills (for fun😉)</em></b></p>
+      <input id="html" type="checkbox" name="skills" value="HTML" />
+      <label for="html">HTML</label><br/>
+      <input id="css" type="checkbox" name="skills" value="CSS" />
+      <label for="css">CSS</label><br/>
+      <input id="js" type="checkbox" name="skills" value="JS" />
+      <label for="js">JavaScript</label><br/>
+      <input id="BS" type="checkbox" name="skills" value="BT" />
+      <label for="BS">bootstrap</label><br/>
+      <!-- Creates Text area to give reasons-->
+      <P><b><em>Your Reason to contact me:</em></b></P>
+      <textarea rows=15 cols=30 placeholder="example you are beginner level in Web Dev..."></textarea><br/>
+      <p><b><em>Submit your form:</em></b></p>
+      <!-- Make submit button-->
+      <input for="form1" type="submit" value="Submit">
+    </form>
+  </div>
+  <hr />
+  </body>
+</html>
